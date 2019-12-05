@@ -10,7 +10,7 @@
   },
   "scripts": {
     "docs": "node_modules/.bin/jsdoc lib/countly.js README.md -c jsdoc_conf.json -d docs",
-    "build": "webpack",
+    "prepack": "webpack",
     "pretest": "eslint .",
     "test": "casperjs test test/tests_*.js"
   },
@@ -35,8 +35,8 @@
     "docdash": "*",
     "eslint": "*",
     "jsdoc": "*",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^2.1.5"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "npmName": "countly-sdk-web",
   "npmFileMap": [
