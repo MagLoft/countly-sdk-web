@@ -1,0 +1,6 @@
+examples/
+test/
+generateDocs.sh
+inch.json
+jsdoc_conf.json
+webpack.config.js

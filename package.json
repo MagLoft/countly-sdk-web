@@ -1,5 +1,5 @@
 {
-  "name": "countly-sdk-web",
+  "name": "@magloft/countly-sdk-web",
   "version": "19.8.0",
   "description": "Countly Web SDK",
   "main": "lib/countly.js",
